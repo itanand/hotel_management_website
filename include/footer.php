@@ -1,6 +1,6 @@
  <!-- Footer -->
 
- <div class="container-fluid bg-white mt-5">
+ <div class="container-fluid bg-white mt-5 shadow">
             <div class="row">
               <div class="col-lg-6 p-4">
                  <h3 class="h-font fw-bold fs-3 mb-2">
