@@ -3,21 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hotel Manglam - Facilities</title>
+    <title>Hotel Manglam - About Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <?php require('include/links.php') ?>
-    <style>
-        .pop:hover{
-            border-top-color: var(--teal) !important;
-            transform: scale(1.03);
-            transition: all 0.3s;
-        }
-    </style>
   </head>
   <body>
     <?php require('include/header.php') ?>
 
       <div class="my-5 px-4">
-         <h2 class="fw-bold h-font text-center">OUR FACILITIES</h2>
+         <h2 class="fw-bold h-font text-center">About Us</h2>
          <div class="h-line bg-dark"></div>
             <p class="text-center mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus consequatur suscipit eius, sapiente illum vitae, <br>dicta quibusdam molestiae sit a quod, expedita non nihil officia optio maiores fugit recusandae!
