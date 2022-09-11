@@ -21,7 +21,7 @@
           }
     </style>
   </head>
-  <body>
+  <body class="bg-light">
 
      <?php
        require('include/header.php')
