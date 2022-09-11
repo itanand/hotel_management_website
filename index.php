@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="icon" href="images/icons/h.png">
     <style>
           .availability-form{
              margin-top: -50px;
@@ -27,7 +28,8 @@
    <!-- Navbar code  -->
   <nav class="navbar navbar-expand-lg bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">Hotel Management</a>
+      <img src="images/icons/h.png" alt="" height="30px;" width="30px">
+      <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">otel मंगलम</a>
       <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -98,7 +100,7 @@
             <form>
               <div class="modal-header">
                 <h5 class="modal-title d-flex align-items-center">
-                <i class="bi bi-person-lines-fillfs-3 me-2"></i>User Registration
+                <i class="bi bi-person-lines-fill fs-3 me-2"></i>User Registration
                 </h5>
                 <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
@@ -444,8 +446,8 @@
 
               <div class="swiper-slide bg-white shadow p-4">
                 <div class="profile d-flex align-items-center mb-3">
-                      <img src="images/facilities/IMG_43553.svg" width="30px" alt="">
-                      <h6 class="m-0 ms-2">Random user1</h6>
+                      <img src="images/facilities/user.png" width="30px" alt="">
+                      <h6 class="m-0 ms-2">Akash & Raju</h6>
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                    elit. Voluptates consequuntur similique repellat
@@ -461,8 +463,8 @@
 
               <div class="swiper-slide bg-white shadow p-4">
                 <div class="profile d-flex align-items-center mb-3">
-                      <img src="images/facilities/IMG_43553.svg" width="30px" alt="">
-                      <h6 class="m-0 ms-2">Random user1</h6>
+                      <img src="images/facilities/user.png" width="30px" alt="">
+                      <h6 class="m-0 ms-2">Sadanand Kumar</h6>
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                    elit. Voluptates consequuntur similique repellat
@@ -478,8 +480,8 @@
 
               <div class="swiper-slide bg-white shadow p-4">
                 <div class="profile d-flex align-items-center mb-3">
-                      <img src="images/facilities/IMG_43553.svg" width="30px" alt="">
-                      <h6 class="m-0 ms-2">Random user1</h6>
+                      <img src="images/facilities/user.png" width="30px" alt="">
+                      <h6 class="m-0 ms-2">Ashish & Vishal</h6>
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                    elit. Voluptates consequuntur similique repellat
@@ -494,6 +496,9 @@
               </div>
             </div>
             <div class="swiper-pagination"></div>
+          </div>
+          <div class="col-lg-12 text-center mt-5">
+            <a href="#" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">Know More >>></a>
           </div>
         </div>
 
@@ -544,27 +549,45 @@
 
           <div class="container-fluid bg-white mt-5">
             <div class="row">
-              <div class="col-lg-4 p-4">
-                 <h3 class="h-font fw-bold fs-3">
-                   Hotel Management
+              <div class="col-lg-6 p-4">
+                 <h3 class="h-font fw-bold fs-3 mb-2">
+                   Hotel मंगलम
                  </h3>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur eligendi excepturi ipsum dolorum recusandae magni,
+                   maxime nam asperiores commodi voluptatem eaque sit numquam tempore voluptates a eum rerum eius ipsam mollitia quidem nobis natus labore veniam. Aliquid blanditiis ipsa, explicabo, fugiat debitis autem architecto consequuntur repellat obcaecati, est labore?</p>
               </div>
-              <div class="col-lg-4 p-4">
-                <h3 class="h-font fw-bold fs-3">
-                  Hotel Management
+              <div class="col-lg-2 p-4">
+                <h3 class="mb-3">
+                  Links
                 </h3>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Facilities</a><br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact Us</a><br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About</a><br>
+
              </div>
              <div class="col-lg-4 p-4">
-              <h3 class="h-font fw-bold fs-3">
-                Hotel Management
+              <h3 class="mb-2">
+                Follow Us
               </h3>
+              <a href="#" class="d-inline-block text-dark text-decoration-none mb-2 ">
+                 <i class="bi bi-twitter me-1"></i> Twitter
+               </a><br>
+               <a href="#" class="d-inline-block text-dark text-decoration-none mb-2 ">
+                <i class="bi bi-facebook me-1"></i> Facebook
+              </a><br>
+              <a href="#" class="d-inline-block text-dark text-decoration-none mb-2 ">
+                <i class="bi bi-instagram me-1"></i> Instagram
+              </a><br>
+              <a href="#" class="d-inline-block text-dark text-decoration-none mb-2 ">
+                <i class="bi bi-linkedin me-1"></i> Linkedin
+              </a><br>
            </div>
             </div>
           </div>
 
-      <br><br><br>
-
-      <br><br><br>
+          <h6 class="text-center bg-dark text-white p-3 m-0">Designed and Developed by Anand Mohan</h6>
 
 
 
