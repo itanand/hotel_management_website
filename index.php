@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <style>
+
+         .custom-box-shadow{box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)}
+;
           .availability-form{
              margin-top: -50px;
              z-index: 2;
@@ -193,7 +202,7 @@
                        </div>
                        <div class="facilities mb-4">
                          <h6 class="mb-1">Facilities</h6>
-                        <span class="badge rounded-pill bg-light text-dark  text-wrap ">
+                        <span class="badge rounded-pill bg-light text-dark  text-wrap custom-box-shadow">
                           Wi-Fi
                         </span>
                         <span class="badge rounded-pill bg-light text-dark  text-wrap ">
@@ -257,7 +266,7 @@
                      </div>
                      <div class="facilities mb-4">
                        <h6 class="mb-1">Facilities</h6>
-                      <span class="badge rounded-pill bg-light text-dark  text-wrap ">
+                      <span class="badge rounded-pill bg-light text-dark  text-wrap custom-box-shadow ">
                         Wi-Fi
                       </span>
                       <span class="badge rounded-pill bg-light text-dark  text-wrap ">
