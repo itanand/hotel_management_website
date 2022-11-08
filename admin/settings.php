@@ -21,7 +21,7 @@
 
                     <!-- General Setting Section -->
 
-                    <div class="card" >
+                    <div class="card border-0 shadow-sm mb-4" >
                         <div class="card-body">
                             <div class="d-flex align-items-center justify-content-between mb-3">
                                 <h5 class="card-title m-0">General Settings</h5>
@@ -38,9 +38,6 @@
 
                      <!-- General Setting Modal-->
 
-
-
-                    <!-- Modal -->
                   <div class="modal fade" id="general-s" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <form>
@@ -66,6 +63,24 @@
                         </form>
                     </div>
                   </div>
+
+
+                    <!-- Shutdown Section-->
+
+
+                    <div class="card border-0 shadow-sm" >
+                        <div class="card-body">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <h5 class="card-title m-0">Shutdown Website</h5>
+
+                            </div>
+                            <p class="card-text" id="site_about">
+                                No Customer will be allowed to book hotel room, when shutdown mode is turned on.
+                            </p>
+                        </div>
+                    </div>
+
+
 
                 </div>
             </div>
@@ -117,11 +132,11 @@
             //if data not chnaged
             if(this.responseText == 1 )
             {
-                console.log("data updated");
+                alert('success', 'Changes Saved!');
                 get_general();
             }
             else{
-                console.log("No data Change");
+                alert('error', 'No Changes made!');
             }
         }
 
