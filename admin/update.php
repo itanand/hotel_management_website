@@ -28,7 +28,7 @@ if(@$_GET['q']== '4')
     } else {
         echo "<h3>  Failed to upload image!</h3>";
     }
-      header("location:add_package.php?step=2");
+      header("location:add_package.php?step=2&pid=$myuid");
     }
 
 ?>
