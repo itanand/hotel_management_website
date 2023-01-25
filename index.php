@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hotel  Booking Website</title>
     <?php require('include/links.php') ?>
+    <?php require('database.php') ?>
+    <link rel="stylesheet" href="css/package.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <style>
@@ -107,6 +109,12 @@
           </div>
         </div>
       </div>
+
+      <!-- Our Package -->
+
+      <?php
+       require('include/package.php')
+     ?>
 
       <!-- Our Rooms -->
 

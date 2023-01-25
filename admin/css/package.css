@@ -1,0 +1,145 @@
+.a233{
+    border-bottom: 2px solid #959595;
+    padding: 10px;
+    overflow: hidden;
+    
+    margin: auto;
+    
+}
+.a234 {   
+    text-align: left;
+    overflow: hidden;   
+    float: left;
+ }
+
+  .a234 a {
+    border-radius: 5px rgb(255, 154, 154);
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    float: left;
+    font-size: 18px; 
+    text-decoration: none;
+  }
+
+  .a235 {  
+    text-align: left;
+    overflow: hidden;  
+    float: right;  
+    border: 1px solid;
+  }
+
+  .a235 a {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px rgb(255, 154, 154);
+    padding: 5px 10px 5px 10px;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;    
+  }
+  .active6 {
+    background-color: rgb(216, 0, 54);
+    color: rgb(255, 255, 255);  
+  }
+
+
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 23%;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+    text-align: right;
+    margin-right: 5px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  img, svg {
+    height: 150px;
+  }
+  h3 {
+    font-size: 19px;
+    margin: 5px;
+    text-align: left;
+    height: 50px;
+  }
+
+  .row {
+    display: flex;
+    overflow: hidden;
+    
+  }
+
+  .row a {
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    background-color: rgb(23, 133, 78);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+  }
+
+  .column2 {
+    flex: 50%;
+    background-color: rgb(14, 97, 55);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+  }
+
+  .column a {
+    color: white;
+    text-decoration: none;
+  }
+  .column2 a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+  }
+
+
+  .over {
+    background-color: #fff200;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    display: block;
+    font-weight: bold;
+    font-size: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .over a {
+    font-size: 13px;
+  }

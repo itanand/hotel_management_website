@@ -1,0 +1,14 @@
+.allp {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: auto;
+    width: 95%;
+}
+
+.taskhead {
+    background: red;
+    color: antiquewhite;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
