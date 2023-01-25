@@ -4,7 +4,7 @@
             <div class="row">
               <div class="col-lg-6 p-4">
                  <h3 class="h-font fw-bold fs-3 mb-2">
-                   Hotel मंगलम
+                  Ghoom Yatri
                  </h3>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur eligendi excepturi ipsum dolorum recusandae magni,
                    maxime nam asperiores commodi voluptatem eaque sit numquam tempore voluptates a eum rerum eius ipsam mollitia quidem nobis natus labore veniam. Aliquid blanditiis ipsa, explicabo, fugiat debitis autem architecto consequuntur repellat obcaecati, est labore?</p>

@@ -10,7 +10,7 @@
         .box{
            border-top-color: var(--teal) !important;
         }
-
+ /* akash  */
     </style>
   </head>
   <body class="bg-light">

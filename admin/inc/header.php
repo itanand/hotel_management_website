@@ -18,6 +18,9 @@
                                 <a href="dashboard.php" class="nav-link text-white">Dashboard</a>
                             </li>
                             <li class="nav-item">
+                                <a href="package.php" class="nav-link text-white">Package</a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="#" class="nav-link text-white">Rooms</a>
                             </li>
                             <li class="nav-item">
